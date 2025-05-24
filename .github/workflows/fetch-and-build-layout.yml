@@ -1,6 +1,10 @@
 name: Fetch and build layout
 
 on:
+  push:
+    inputs:
+      layout_id: "JJypQ"
+      layout_geometry: voyager
   workflow_dispatch:
     inputs:
       layout_id:
