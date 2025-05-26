@@ -22,7 +22,7 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
     CW_TOGG,        KC_Q,           KC_W,           KC_E,           KC_R,           KC_T,                                           KC_Y,           KC_U,           KC_I,           KC_O,           KC_P,           DK_ARNG,        
     OSM(MOD_LSFT),  MT(MOD_LALT, KC_A),MT(MOD_LGUI, KC_S),MT(MOD_LSFT, KC_D),MT(MOD_LCTL, KC_F),KC_G,                                           KC_H,           MT(MOD_RCTL, KC_J),MT(MOD_RSFT, KC_K),MT(MOD_RGUI, KC_L),MT(MOD_LALT, DK_AE),DK_OSTR,        
     KC_APPLICATION, KC_Z,           KC_X,           KC_C,           KC_V,           KC_B,                                           KC_N,           KC_M,           DK_COMM,        DK_DOT,         DK_MINS,        DK_QUOT,        
-                                                    LT(2, KC_ESCAPE),LT(3, KC_ENTER),                                LT(5, KC_SPACE),LT(4, KC_BSPC)
+                                                    LT(3, KC_ESCAPE),LT(2, KC_ENTER),                                LT(5, KC_SPACE),LT(4, KC_BSPC)
   ),
   [1] = LAYOUT_voyager(
     TO(0),          TO(6),          TO(8),          TO(9),          TO(10),         KC_NO,                                          KC_NO,          KC_NO,          KC_NO,          KC_NO,          KC_NO,          KC_NO,          
@@ -36,14 +36,14 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
     KC_NO,          KC_NO,          DK_BSLS,        DK_QUES,        DK_TILD,        KC_NO,                                          DK_PIPE,        DK_LBRC,        DK_LCBR,        DK_RCBR,        DK_RBRC,        KC_NO,          
     KC_NO,          DK_EXLM,        DK_AT,          DK_HASH,        DK_DLR,         DK_PERC,                                        DK_AMPR,        DK_SLSH,        DK_LPRN,        DK_RPRN,        DK_EQL,         KC_NO,          
     KC_NO,          KC_NO,          DK_CIRC,        DK_PLUS,        DK_ASTR,        KC_NO,                                          DK_QUOT,        DK_DQUO,        DK_LABK,        DK_RABK,        DK_GRV,         KC_NO,          
-                                                    KC_TRANSPARENT, KC_NO,                                          KC_TAB,         KC_TRANSPARENT
+                                                    KC_TRANSPARENT, KC_TRANSPARENT,                                 KC_TAB,         KC_TRANSPARENT
   ),
   [3] = LAYOUT_voyager(
     KC_NO,          KC_F1,          KC_F2,          KC_F3,          KC_F4,          KC_F5,                                          KC_F6,          KC_F7,          KC_F8,          KC_F9,          KC_F10,         KC_F11,         
     KC_NO,          KC_NO,          KC_NO,          KC_NO,          KC_NO,          KC_NO,                                          KC_NO,          ST_MACRO_0,     KC_NO,          KC_NO,          KC_NO,          KC_F12,         
     KC_NO,          KC_NO,          KC_NO,          KC_NO,          KC_FIND,        KC_NO,                                          KC_NO,          ST_MACRO_1,     ST_MACRO_2,     ST_MACRO_3,     ST_MACRO_4,     KC_APPLICATION, 
     KC_NO,          KC_PC_UNDO,     KC_PC_CUT,      KC_PC_COPY,     KC_PC_PASTE,    KC_NO,                                          KC_NO,          KC_NO,          KC_NO,          KC_NO,          KC_NO,          OSM(MOD_RALT),  
-                                                    KC_NO,          KC_TRANSPARENT,                                 KC_TRANSPARENT, KC_TRANSPARENT
+                                                    KC_TRANSPARENT, KC_TRANSPARENT,                                 KC_TRANSPARENT, KC_TRANSPARENT
   ),
   [4] = LAYOUT_voyager(
     TO(1),          KC_NO,          KC_NO,          KC_NO,          KC_NO,          KC_NO,                                          KC_NO,          KC_NO,          KC_NO,          KC_NO,          KC_NO,          KC_NO,          
