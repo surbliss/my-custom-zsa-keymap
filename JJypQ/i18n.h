@@ -26,10 +26,10 @@
 #define DK_LPRN S(KC_8)
 #define DK_RPRN S(KC_9)
 #define DK_EQL S(KC_0)
+#define DK_GRV S(KC_EQL)
 #define DK_DQUO S(KC_2)
 #define DK_LABK KC_NUBS
 #define DK_RABK S(KC_NUBS)
-#define DK_GRV S(KC_EQL)
 #define KC_PC_UNDO LCTL(KC_Z)
 #define KC_PC_CUT LCTL(KC_X)
 #define KC_PC_COPY LCTL(KC_C)
