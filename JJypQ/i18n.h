@@ -28,8 +28,8 @@
 #define DK_EQL S(KC_0)
 #define DK_ASTR S(KC_NUHS)
 #define DK_PLUS KC_MINS
-#define DK_UNDS S(KC_SLSH)
 #define DK_MINS KC_SLSH
+#define DK_UNDS S(KC_SLSH)
 #define DK_CIRC S(KC_RBRC)
 #define KC_PC_UNDO LCTL(KC_Z)
 #define KC_PC_CUT LCTL(KC_X)
