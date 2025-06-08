@@ -4,6 +4,7 @@
 #define DK_COMM KC_COMM
 #define DK_DOT KC_DOT
 #define DK_QUOT KC_NUHS
+#define DK_MINS KC_SLSH
 #define DK_BSLS ALGR(KC_NUBS)
 #define DK_QUES S(KC_MINS)
 #define DK_TILD ALGR(KC_RBRC)
@@ -28,7 +29,6 @@
 #define DK_EQL S(KC_0)
 #define DK_ASTR S(KC_NUHS)
 #define DK_PLUS KC_MINS
-#define DK_MINS KC_SLSH
 #define DK_UNDS S(KC_SLSH)
 #define DK_CIRC S(KC_RBRC)
 #define KC_PC_UNDO LCTL(KC_Z)
