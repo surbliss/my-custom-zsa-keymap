@@ -33,9 +33,9 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
   ),
   [1] = LAYOUT_voyager(
     TO(0),          KC_TRANSPARENT, KC_TRANSPARENT, KC_TRANSPARENT, KC_TRANSPARENT, KC_TRANSPARENT,                                 KC_TRANSPARENT, KC_TRANSPARENT, KC_TRANSPARENT, KC_TRANSPARENT, KC_TRANSPARENT, KC_TRANSPARENT, 
-    KC_TRANSPARENT, KC_W,           KC_G,           KC_D,           KC_F,           KC_B,                                           KC_K,           KC_L,           KC_U,           KC_O,           KC_Y,           DK_AE,          
+    KC_TRANSPARENT, KC_W,           KC_G,           KC_D,           KC_F,           KC_B,                                           KC_Q,           KC_L,           KC_U,           KC_O,           KC_Y,           DK_AE,          
     KC_TRANSPARENT, KC_R,           MT(MOD_LGUI, KC_S),MT(MOD_LSFT, KC_T),MT(MOD_LCTL, KC_H),KC_K,                                           KC_J,           MT(MOD_RCTL, KC_N),MT(MOD_RSFT, KC_E),MT(MOD_RGUI, KC_A),KC_I,           DK_OSTR,        
-    KC_TRANSPARENT, KC_X,           KC_C,           KC_M,           KC_P,           KC_V,                                           KC_Z,           DK_COMM,        DK_DOT,         DK_QUOT,        DK_MINS,        DK_ARNG,        
+    KC_TRANSPARENT, KC_X,           KC_C,           KC_M,           KC_P,           KC_V,                                           KC_Z,           DK_COMM,        DK_DOT,         DK_MINS,        DK_QUOT,        DK_ARNG,        
                                                     KC_TRANSPARENT, KC_TRANSPARENT,                                 KC_TRANSPARENT, KC_TRANSPARENT
   ),
   [2] = LAYOUT_voyager(
@@ -102,6 +102,14 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
                                                     KC_TRANSPARENT, KC_TRANSPARENT,                                 ST_MACRO_11,    KC_TRANSPARENT
   ),
 };
+
+const char chordal_hold_layout[MATRIX_ROWS][MATRIX_COLS] PROGMEM = LAYOUT(
+  'L', 'L', 'L', 'L', 'L', 'L', 'R', 'R', 'R', 'R', 'R', 'R', 
+  'L', 'L', 'L', 'L', 'L', 'L', 'R', 'R', 'R', 'R', 'R', 'R', 
+  'L', 'L', 'L', 'L', 'L', 'L', 'R', 'R', 'R', 'R', 'R', 'R', 
+  'L', 'L', 'L', 'L', 'L', 'L', 'R', 'R', 'R', 'R', 'R', 'R', 
+  'L', 'L', 'R', 'R'
+);
 
 
 
