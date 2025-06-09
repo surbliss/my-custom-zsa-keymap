@@ -103,12 +103,13 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
   ),
 };
 
+// Modified, by me
 const char chordal_hold_layout[MATRIX_ROWS][MATRIX_COLS] PROGMEM = LAYOUT(
   'L', 'L', 'L', 'L', 'L', 'L', 'R', 'R', 'R', 'R', 'R', 'R', 
   'L', 'L', 'L', 'L', 'L', 'L', 'R', 'R', 'R', 'R', 'R', 'R', 
   'L', 'L', 'L', 'L', 'L', 'L', 'R', 'R', 'R', 'R', 'R', 'R', 
   'L', 'L', 'L', 'L', 'L', 'L', 'R', 'R', 'R', 'R', 'R', 'R', 
-  'L', 'L', 'R', 'R'
+  '*', 'L', 'R', 'R'
 );
 
 
@@ -284,15 +285,6 @@ bool process_record_user(uint16_t keycode, keyrecord_t *record) {
 
 
 // Custom qmk-config, merged with https://github.com/angryluck/my-custom-zsa-keymap
-const char chordal_hold_layout[MATRIX_ROWS][MATRIX_COLS] PROGMEM =
-  LAYOUT_voyager(
-    'L', 'L', 'L', 'L', 'L', 'L',       'R', 'R', 'R', 'R', 'R', 'R',
-    'L', 'L', 'L', 'L', 'L', 'L',       'R', 'R', 'R', 'R', 'R', 'R',
-    'L', 'L', 'L', 'L', 'L', 'L',       'R', 'R', 'R', 'R', 'R', 'R',
-    'L', 'L', 'L', 'L', 'L', 'L',       'R', 'R', 'R', 'R', 'R', 'R',
-                        '*', '*',       '*', '*'
-);
-
 // Fix CAPS_WORD
 bool caps_word_press_user(uint16_t keycode) {
     switch (keycode) {
